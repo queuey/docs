@@ -9,17 +9,11 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: "Queuey Docs",
-      logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
-      },
+      // logo: {
+      //   alt: "My Site Logo",
+      //   src: "img/logo.svg",
+      // },
       links: [
-        {
-          to: "docs/doc1",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
-        },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "Queuey",
@@ -83,6 +77,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/",
+          homePageId: "introduction",
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
         },
