@@ -2,7 +2,7 @@ module.exports = {
   title: "My Site",
   tagline: "The tagline of my site",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/docs/",
+  baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "Queuey", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
@@ -78,7 +78,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
-          homePageId: "introduction",
+          homePageId: "intro",
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
         },

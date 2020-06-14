@@ -10,7 +10,7 @@ Projects are where you will capture user info for your queue.
 To get information about a project use the `projects` endpoint.
 
 ```
-/projects/:id
+curl https://queuey.dev/api/projects/:id
 ```
 
 Response
