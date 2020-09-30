@@ -1,4 +1,6 @@
-# Website
+# Queuey Documentation
+
+> Note: The docs are set to "docs only mode" meaning we have removed the `index.js` file inside `./src/pages/` to only show the documentation.
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
