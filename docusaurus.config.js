@@ -15,7 +15,7 @@ module.exports = {
       // },
       items: [
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://www.queuey.dev",
           label: "Queuey",
           position: "right",
         },
@@ -25,45 +25,15 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "More",
           items: [
             {
-              label: "Style Guide",
-              to: "docs/doc1",
+              label: "Queuey.dev",
+              to: "https://www.queuey.dev",
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "Social",
-          items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Feedback",
+              to: "mailto:hello@queuey.dev",
             },
           ],
         },
@@ -79,8 +49,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
           homePageId: "intro",
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/queuey/docs/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
