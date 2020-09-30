@@ -3,7 +3,7 @@ module.exports = {
   tagline: "The tagline of my site",
   url: "https://queuey.github.io",
   favicon: "img/favicon.ico",
-  baseUrl: "/",
+  baseUrl: "/docs/",
   organizationName: "queuey", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   themeConfig: {
