@@ -13,16 +13,16 @@ Throughout the documentation our examples are all shown using the cURL command a
 ## Base URL
 
 ```
-https://queuey.dev/api
+https://www.queuey.dev/api
 ```
 
 ## Authentication
 
-When making requests, ensure you pass in the `authorization` header with your `authToken`
+When making requests, ensure you pass in the `authorization` header with your private `authToken`
 
 <!-- https://oauth.net/getting-started/ -->
 
 ```bash
-curl https://queuey.dev/api \\
+curl https://www.queuey.dev/api \\
   -H authorization="Bearer <authToken>"
 ```

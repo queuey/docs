@@ -8,7 +8,7 @@ title: Members
 Get information about a member who has joined a Project.
 
 ```
-curl https://queuey.dev/api/projects/:id/members?email=<user_email_address>
+curl https://www.queuey.dev/api/projects/:id/members?email=<user_email_address>
 ```
 
 ### Retrieve Member Response
@@ -30,7 +30,7 @@ curl https://queuey.dev/api/projects/:id/members?email=<user_email_address>
 ## Add a Member to a Project
 
 ```bash
-curl https://queuey.dev/api/projects/:id/members \
+curl https://www.queuey.dev/api/projects/:id/members \
   -H authorization="Bearer <your_auth_token_here>" \
   -d name="Karl" \
   -d email="karl@queuey.dev"
