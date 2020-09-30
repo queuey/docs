@@ -1,18 +1,14 @@
 module.exports = {
   title: "My Site",
   tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://queuey.github.io",
   favicon: "img/favicon.ico",
-  organizationName: "Queuey", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  baseUrl: "/",
+  organizationName: "queuey", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Queuey Docs",
-      // logo: {
-      //   alt: "My Site Logo",
-      //   src: "img/logo.svg",
-      // },
       items: [
         {
           href: "https://www.queuey.dev",
