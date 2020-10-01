@@ -1,8 +1,8 @@
-# Queuey Documentation
+# Queuey docs
 
-> Note: The docs are set to "docs only mode" meaning we have removed the `index.js` file inside `./src/pages/` to only show the documentation.
+Website for [queuey.dev](https://queuey.dev) documentation. Built using docusaurus and deployed using github pages.
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+https://queuey.github.io/docs/
 
 ### Installation
 
@@ -25,11 +25,3 @@ $ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
