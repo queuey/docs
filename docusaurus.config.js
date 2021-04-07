@@ -1,6 +1,7 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
+  title: "Queuey Documentation",
+  tagline:
+    "Documentation for https://queuey.dev, a clever waitlist API platform.",
   favicon: "img/favicon.ico",
   organizationName: "queuey", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
