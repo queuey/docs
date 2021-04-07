@@ -1,11 +1,11 @@
 module.exports = {
   title: "My Site",
   tagline: "The tagline of my site",
-  url: "https://queuey.github.io",
   favicon: "img/favicon.ico",
-  baseUrl: "/docs/",
   organizationName: "queuey", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
+  url: "https://queuey.github.io",
+  baseUrl: "/docs/", // Base URL for your project. For projects hosted on GitHub pages, it follows the format "/projectName/". For https://github.com/facebook/docusaurus, baseUrl is /docusaurus/.
   themeConfig: {
     navbar: {
       title: "Queuey Docs",
