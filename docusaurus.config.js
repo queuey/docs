@@ -44,7 +44,6 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
-          homePageId: "intro",
           editUrl: "https://github.com/queuey/docs/tree/master",
         },
         theme: {

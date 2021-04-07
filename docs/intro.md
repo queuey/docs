@@ -1,5 +1,6 @@
 ---
 id: intro
+slug: /
 title: Getting Started
 sidebar_label: Intro
 ---
